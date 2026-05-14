@@ -6,7 +6,8 @@
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "seed": "ts-node src/seed/seedBikes.ts"
+    //"seed": "ts-node src/seed/seedBikes.ts",
+    "seed": "ts-node-dev --transpile-only src/seed/seedBikes.ts"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
